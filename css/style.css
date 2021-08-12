@@ -1,0 +1,93 @@
+/*   
+	Theme Name: Norte Forte MS
+	Theme URL: 
+	Description: Tema WordPress | Exclusivo - CSS, HTML, PHP e Wordpress.
+	Author: Alemaciell e João Mesquita
+	Author URI: 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.color-yellow, a.color-yellow {color: #FDB92E !important;}
+.bg-yellow {background-color: #FDB92E;}
+.color-green {color: #008859;}
+a.color-green:hover {color: #005336;}
+.bg-green {background-color: #008859 !important;}
+.color-blue {color: #005882;}
+.bg-blue {background-color: #005882;}
+.color-light {color: #FFF !important;}
+a.color-light:hover {color: #FDB92E !important;}
+.bg-light {background-color: #FFF;}
+.color-black {color: #000;}
+.bg-black {background-color: #000;}
+.color-gray {color: #999999;}
+.bg-gray {background-color: #F3F3F3;}
+
+.font-35 {font-size: 35px;}
+.font-25 {font-size: 25px;}
+.font-18 {font-size: 18px;}
+.font-16 {font-size: 16px;}
+.font-15 {font-size: 15px;}
+.font-14 {font-size: 14px;}
+
+.border-light { border-color: #FFF;}
+.border-light:hover { border-color: #FDB92E !important;}
+
+.border-footer {
+    border-bottom: 4px solid #FDB92E !important;
+}
+
+.session {padding: 50px 0px;}
+
+.header-page, .cta {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.header-page {height: 700px;}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #008859;
+    background-color: #FFF;
+}
+
+.line, .line-center {
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.line:before, .line-center:before{
+	width: 100px;
+	position: absolute;
+	height: 5px;
+    background-color: #FDB92E;
+}
+
+.line:before {
+	left: 0;
+	bottom: 0;
+	content: "";
+}
+
+.line-center:before {
+	left: 50%;
+	margin-left: -50px;
+	bottom: 0;
+	content: "";
+}
+
+
+@media (max-width: 992px) {
+    #navbarNav {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
