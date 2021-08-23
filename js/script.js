@@ -14,3 +14,11 @@ $(window).scroll(function(){
 $(".navbar-toggler").click(function() {
     $(".navbar").toggleClass("bg-green");
 })
+
+$ ('[data-fancybox]'). fancybox ({
+    animationEffect: 'zoom',
+    thumbs: {
+        autoStart:  true ,
+        hideOnClose:  true
+    }
+});

@@ -18,7 +18,7 @@
             <div class="col-lg-8">
                 <h1 class="font-35 color-blue text-uppercase line-center">Conheça o projeto</h1>
                 <p class="font-16 color-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere felis eros, eu</p>
-                <a href="#" class="btn bg-green color-light text-uppercase px-4 py-3 mt-4">Continue Lendo</a>
+                <a href="projeto.php" class="btn bg-green color-light text-uppercase px-4 py-3 mt-4">Continue Lendo</a>
             </div>
         </div>
 

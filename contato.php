@@ -23,7 +23,6 @@
             <div class="col-lg-6">
                 <p class="font-25 color-blue fw-bold text-uppercase">Faça seu pré cadastro</p>
                 <p class="font-16 color-black">Após o cadastro ser realizado, nós entraremos em contato para passar mais informações. Desde já agradecemos seu apoio!</p>
-            
                 <form class="">
                     <div class="mb-3">
                         <label for="input-nome" class="form-label text-uppercase">nome *</label>
@@ -38,13 +37,8 @@
                         <input type="text" class="form-control" id="input-telefone" placeholder="Digite aqui">
                     </div>
                     <div class="mb-3">
-                        <label for="input-cidade" class="form-label text-uppercase">cidade *</label>
-                        <select class="form-select" id="input-cidade">
-                            <option selected>Selecione</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+                        <label for="input-cidade" class="form-label text-uppercase">Cidade *</label>
+                        <input type="text" class="form-control" id="input-cidade" placeholder="Digite aqui">
                     </div>
                     <button type="submit" class="btn bg-green color-light text-uppercase py-2 w-100">Cadastrar</button>
                 </form>
